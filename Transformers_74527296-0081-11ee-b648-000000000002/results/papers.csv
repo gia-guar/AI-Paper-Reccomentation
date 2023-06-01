@@ -1,0 +1,167 @@
+paperId,title,first_author,year,abstract,tldr,bibtex,influentialCitationCount,venue,journal,pages
+c76cbcb3a388cffceb85ab25efec3c6615b0fab7,Pure Versus Hybrid Transformers For Multi-Modal Brain Tumor Segmentation: A Comparative Study,G. Andrade-Miranda,2022,"Vision Transformers (ViT)-based models are witnessing an exponential growth in the medical imaging community. Among desirable properties, ViTs provide a powerful modeling of long-range pixel relationships, contrary to inherently local convolutional neural networks (CNN). These emerging models can be categorized either as hybrid-based when used in conjunction with CNN layers (CNN-ViT) or purely Transformers-based. In this work, we conduct a comparative quantitative analysis to study the differences between a range of available Transformers-based models using controlled brain tumor segmentation experiments. We also investigate to what extent such models could benefit from modality interaction schemes in a multi-modal setting. Results on the publicly-available BraTS2021 dataset show that hybrid-based pipelines generally tend to outperform simple Transformers-based models. In these experiments, no particular improvement using multi-modal interaction schemes was observed.","{'model': 'tldr@v2.0.0', 'text': 'Results on the publicly-available BraTS2021 dataset show that hybrid-based pipelines generally tend to outperform simple Transformers-based models, and no particular improvement using multi-modal interaction schemes was observed.'}","@Article{Andrade-Miranda2022PureVH,
+ author = {G. Andrade-Miranda and V. Jaouen and V. Bourbonne and F. Lucia and D. Visvikis and Pierre-Henri Conze},
+ booktitle = {International Conference on Information Photonics},
+ journal = {2022 IEEE International Conference on Image Processing (ICIP)},
+ pages = {1336-1340},
+ title = {Pure Versus Hybrid Transformers For Multi-Modal Brain Tumor Segmentation: A Comparative Study},
+ year = {2022}
+}
+",0,International Conference on Information Photonics,2022 IEEE International Conference on Image Processing (ICIP),1336-1340
+f0aaf2fbb5299c71d4caf3540910d4e162140aa8,A Review on Brain Tumor Segmentation Algorithms Using Recent Deep Neural Network Architectures and a Gentle Introduction to Deep Neural Network Concepts,B. Dheerendranath,2021,,,"@Inproceedings{Dheerendranath2021ARO,
+ author = {B. Dheerendranath and B. V. V. S. N. Rao and P. Yogeeswari and C. Kesavadas and V. Rajagopalan},
+ pages = {227-244},
+ title = {A Review on Brain Tumor Segmentation Algorithms Using Recent Deep Neural Network Architectures and a Gentle Introduction to Deep Neural Network Concepts},
+ year = {2021}
+}
+",0,,<no_journal_data>,227-244
+3d97278f79d32fd81fd098eab83b164bce640e28,Brain Tumor Segmentation in Fluid-Attenuated Inversion Recovery Brain MRI using Residual Network Deep Learning Architectures,M. Mahyoub,2023,"Early and accurate detection of brain tumors is very important to save the patient's life. Brain tumors are generally diagnosed manually by a radiologist by analyzing the patient”s brain MRI scans which is a time-consuming process. This led to our study of this research area for finding out a solution to automate the diagnosis to increase its speed and accuracy. In this study, we investigate the use of Residual Network deep learning architecture to diagnose and segment brain tumors. We proposed a two-step method involving a tumor detection stage, using ResNet50 architecture, and a tumor area segmentation stage using ResU-Net architecture. We adopt transfer learning on pre-trained models to help get the best performance out of the approach, as well as data augmentation to lessen the effect of data population imbalance and hyperparameter optimization to get the best set of training parameter values. Using a publicly available dataset as a testbed we show that our approach achieves 84.3 % performance outperforming the state-of-the-art using U-Net by 2% using the Dice Coefficient metric.","{'model': 'tldr@v2.0.0', 'text': 'This study investigates the use of Residual Network deep learning architecture to diagnose and segment brain tumors and proposes a two-step method involving a tumor detection stage, using ResNet50 architecture, and a tumor area segmentation stage using ResU-Net architecture.'}","@Article{Mahyoub2023BrainTS,
+ author = {M. Mahyoub and F. Natalia and S. Sudirman and A. Al-Jumaily and P. Liatsis},
+ booktitle = {International Conference on Developments in eSystems Engineering},
+ journal = {2023 15th International Conference on Developments in eSystems Engineering (DeSE)},
+ pages = {486-491},
+ title = {Brain Tumor Segmentation in Fluid-Attenuated Inversion Recovery Brain MRI using Residual Network Deep Learning Architectures},
+ year = {2023}
+}
+",0,International Conference on Developments in eSystems Engineering,2023 15th International Conference on Developments in eSystems Engineering (DeSE),486-491
+12c0f1deb164a2933d00fdcb2758f5c3c54bd0b9,AST-Net: Lightweight Hybrid Transformer for Multimodal Brain Tumor Segmentation,Peixu Wang,2022,"Encoder-Decoder networks based on local convolutions have shown state-of-the-art results on various medical image segmentation tasks. However, they have limited ability to capture long-range spatial contexts, which has intrigued the development of Transformers with attention mechanisms. Despite their success, Transformers usually have limitations in processing huge medical image volume data due to their high computational complexity and relying on large-scale pre-training. Hence, we introduce a hybrid encoder-decoder, which utilizes both lightweight convolution modules and an axial-spatial transformer (AST) module in the encoder. To capture better multi-view and multi-scale features, we intergrade axial and spatial attention in the AST module to learn long-range dependencies. Meanwhile, convolution operations extract local dependencies and rich local features. Compared to pure vision transformers, the hybrid model has much fewer learnable parameters, which is desirable for clinical usage. The experimental results on three challenging benchmarks demonstrate the competitive performance of the proposed model over the state of the arts.","{'model': 'tldr@v2.0.0', 'text': 'A hybrid encoder-decoder, which utilizes both lightweight convolution modules and an axial-spatial transformer (AST) module in the encoder to learn long-range dependencies and the experimental results demonstrate the competitive performance of the proposed model over the state of the arts.'}","@Article{Wang2022ASTNetLH,
+ author = {Peixu Wang and Shikun Liu and Jialin Peng},
+ booktitle = {International Conference on Pattern Recognition},
+ journal = {2022 26th International Conference on Pattern Recognition (ICPR)},
+ pages = {4623-4629},
+ title = {AST-Net: Lightweight Hybrid Transformer for Multimodal Brain Tumor Segmentation},
+ year = {2022}
+}
+",0,International Conference on Pattern Recognition,2022 26th International Conference on Pattern Recognition (ICPR),4623-4629
+a9aede67974bfe211424934ed5898a135f4aac16,Znet: Deep Learning Approach for 2D MRI Brain Tumor Segmentation,M. Ottom,2022,"Background: Detection and segmentation of brain tumors using MR images are challenging and valuable tasks in the medical field. Early diagnosing and localizing of brain tumors can save lives and provide timely options for physicians to select efficient treatment plans. Deep learning approaches have attracted researchers in medical imaging due to their capacity, performance, and potential to assist in accurate diagnosis, prognosis, and medical treatment technologies. Methods and procedures: This paper presents a novel framework for segmenting 2D brain tumors in MR images using deep neural networks (DNN) and utilizing data augmentation strategies. The proposed approach (Znet) is based on the idea of skip-connection, encoder-decoder architectures, and data amplification to propagate the intrinsic affinities of a relatively smaller number of expert delineated tumors, e.g., hundreds of patients of the low-grade glioma (LGG), to many thousands of synthetic cases. Results: Our experimental results showed high values of the mean dice similarity coefficient (dice = 0.96 during model training and dice = 0.92 for the independent testing dataset). Other evaluation measures were also relatively high, e.g., pixel accuracy = 0.996, F1 score = 0.81, and Matthews Correlation Coefficient, MCC = 0.81. The results and visualization of the DNN-derived tumor masks in the testing dataset showcase the ZNet model’s capability to localize and auto-segment brain tumors in MR images. This approach can further be generalized to 3D brain volumes, other pathologies, and a wide range of image modalities. Conclusion: We can confirm the ability of deep learning methods and the proposed Znet framework to detect and segment tumors in MR images. Furthermore, pixel accuracy evaluation may not be a suitable evaluation measure for semantic segmentation in case of class imbalance in MR images segmentation. This is because the dominant class in ground truth images is the background. Therefore, a high value of pixel accuracy can be misleading in some computer vision applications. On the other hand, alternative evaluation metrics, such as dice and IoU (Intersection over Union), are more factual for semantic segmentation. Clinical impact: Artificial intelligence (AI) applications in medicine are advancing swiftly, however, there is a lack of deployed techniques in clinical practice. This research demonstrates a practical example of AI applications in medical imaging, which can be deployed as a tool for auto-segmentation of tumors in MR images.","{'model': 'tldr@v2.0.0', 'text': 'This research demonstrates a practical example of AI applications in medical imaging, which can be deployed as a tool for auto-segmentation of tumors in MR images and can be generalized to 3D brain volumes, other pathologies, and a wide range of image modalities.'}","@Article{Ottom2022ZnetDL,
+ author = {M. Ottom and H. Rahman and I. Dinov},
+ booktitle = {IEEE Journal of Translational Engineering in Health and Medicine},
+ journal = {IEEE Journal of Translational Engineering in Health and Medicine},
+ pages = {1-8},
+ title = {Znet: Deep Learning Approach for 2D MRI Brain Tumor Segmentation},
+ volume = {10},
+ year = {2022}
+}
+",1,IEEE Journal of Translational Engineering in Health and Medicine,IEEE Journal of Translational Engineering in Health and Medicine,1-8
+2d957d736924c0455655de39fbfccbdaabd94dfc,Multi-class Brain Tumor Classification and Segmentation using Hybrid Deep Learning Network Model,Parasa Rishi Kumar,2023,"Brain tumor classification is a significant task for evaluating tumors and selecting the type of treatment as per their classes. Brain tumors are diagnosed using multiple imaging techniques. However, MRI is frequently utilized since it provides greater image quality and uses non-ionizing radiation. Deep learning (DL) is a subfield of machine learning and recently displayed impressive performance, particularly in segmentation and classifying problems. Based on convolutional neural network (CNN), a Hybrid Deep Learning Network (HDLN) model is proposed in this research for classifying multiple types of brain tumors including glioma, meningioma, and pituitary tumors. The Mask RCNN is used for brain tumor classification. We used a squeeze-and-excitation residual network (SE-ResNet) for brain tumor segmentation, which is a residual network (ResNet) with a squeeze-and-excitation block. A publicly available research dataset is used for testing the proposed model for experiment analysis and it obtained an overall accuracy of 98.53%, 98.64% sensitivity and 98.91% specificity. In comparison to the most advanced classification models, the proposed model obtained the best accuracy. For multi-class brain tumor diseases, the proposed HDLN model demonstrated its superiority to the existing approaches.","{'model': 'tldr@v2.0.0', 'text': 'A Hybrid Deep Learning Network (HDLN) model is proposed in this research for classifying multiple types of brain tumors including glioma, meningiomas, and pituitary tumors based on convolutional neural network.'}","@Article{Kumar2023MulticlassBT,
+ author = {Parasa Rishi Kumar and Kavya Bonthu and Boyapati Meghana and Koneru Suvarna Vani and P. Chakrabarti},
+ booktitle = {Scalable Computing : Practice and Experience},
+ journal = {Scalable Comput. Pract. Exp.},
+ pages = {69-80},
+ title = {Multi-class Brain Tumor Classification and Segmentation using Hybrid Deep Learning Network Model},
+ volume = {24},
+ year = {2023}
+}
+",0,Scalable Computing : Practice and Experience,Scalable Comput. Pract. Exp.,69-80
+c6cd76cfa3a735f7f9d5e672c6618b6e9508b834,Smart brain tumor diagnosis system utilizing deep convolutional neural networks,Yildiray Anagun,2023,,"{'model': 'tldr@v2.0.0', 'text': 'A Convolutional Neural Network (CNN)-based brain tumor diagnosis system using EfficientNetv2s architecture is established, which was improved with the Ranger optimization and extensive pre-processing and demonstrated a convincing performance in tumor detection and diagnosis.'}","@Article{Anagun2023SmartBT,
+ author = {Yildiray Anagun},
+ booktitle = {Multimedia tools and applications},
+ journal = {Multimedia Tools and Applications},
+ pages = {1 - 27},
+ title = {Smart brain tumor diagnosis system utilizing deep convolutional neural networks},
+ year = {2023}
+}
+",0,Multimedia tools and applications,Multimedia Tools and Applications,1 - 27
+0e4e73a0127abcbe2490f619ae49d5642e6778ac,Accurate detection of brain tumor using optimized feature selection based on deep learning techniques,P. Ramtekkar,2023,,"{'model': 'tldr@v2.0.0', 'text': 'A novel, accurate and optimized system to detect brain tumors is proposed that compares its performance with another modern technique of optimization by using accuracy, precision and recall parameters and claims the supremacy of this work.'}","@Article{Ramtekkar2023AccurateDO,
+ author = {P. Ramtekkar and Anjana Pandey and Mahesh Pawar},
+ booktitle = {Multimedia tools and applications},
+ journal = {Multimedia Tools and Applications},
+ pages = {1 - 31},
+ title = {Accurate detection of brain tumor using optimized feature selection based on deep learning techniques},
+ year = {2023}
+}
+",0,Multimedia tools and applications,Multimedia Tools and Applications,1 - 31
+796b0f22778e761005e9e50968a8deab82975038,Guest editorial - real-time image processing with deep neural networks and optimization algorithms,Shoulin Yin,2022,<jats:p>nema</jats:p>,"{'model': 'tldr@v2.0.0', 'text': None}","@Article{Yin2022GuestE,
+ author = {Shoulin Yin and Mirjana Ivanovic},
+ booktitle = {Computer Science and Information Systems},
+ journal = {Comput. Sci. Inf. Syst.},
+ pages = {iii-vi},
+ title = {Guest editorial - real-time image processing with deep neural networks and optimization algorithms},
+ volume = {19},
+ year = {2022}
+}
+",0,Computer Science and Information Systems,Comput. Sci. Inf. Syst.,iii-vi
+13b4bdb1d17722e1d8d14f753e9e2d826d893ac0,Deep learning-based method for segmenting epithelial layer of tubules in histopathological images of testicular tissue.,A. Fakhrzadeh,2023,"Purpose
+There is growing concern that male reproduction is affected by environmental chemicals. One way to determine the adverse effect of environmental pollutants is to use wild animals as monitors and evaluate testicular toxicity using histopathology. We propose an automated method to process histology images of testicular tissue.
+
+
+Approach
+Testicular tissue consists of seminiferous tubules. Segmenting the epithelial layer of the seminiferous tubule is a prerequisite for developing automated methods to detect abnormalities in tissue. We suggest an encoder-decoder fully connected convolutional neural network model to segment the epithelial layer of the seminiferous tubules in histological images. The ResNet-34 is used in the feature encoder module, and the squeeze and excitation attention block is integrated into the encoding module improving the segmentation and localization of epithelium.
+
+
+Results
+We applied the proposed method for the two-class problem, where the epithelial layer of the tubule is the target class. The F-score and Intersection over Union of the proposed method are 0.85 and 0.92. Although the proposed method is trained on a limited training set, it performs well on an independent dataset and outperforms other state-of-the-art methods.
+
+
+Conclusion
+The pretrained ResNet-34 in the encoder and attention block suggested in the decoder result in better segmentation and generalization. The proposed method can be applied to testicular tissue images from any mammalian species and can be used as the first part of a fully automated testicular tissue processing pipeline. The dataset and codes are publicly available on GitHub.","{'model': 'tldr@v2.0.0', 'text': 'An encoder-decoder fully connected convolutional neural network model to segment the epithelial layer of the seminiferous tubules in histological images of testicular tissue and outperforms other state-of-the-art methods.'}","@Article{Fakhrzadeh2023DeepLM,
+ author = {A. Fakhrzadeh and Pouya Karimian and Mahsa Meyari and C. L. Luengo Hendriks and L. Holm and C. Sonne and R. Dietz and Ellinor Spörndly-Nees},
+ booktitle = {Journal of Medical Imaging},
+ journal = {Journal of medical imaging},
+ pages = {
+          037501
+        },
+ title = {Deep learning-based method for segmenting epithelial layer of tubules in histopathological images of testicular tissue.},
+ volume = {10 3},
+ year = {2023}
+}
+",0,Journal of Medical Imaging,Journal of medical imaging,"
+          037501
+        "
+2d957d736924c0455655de39fbfccbdaabd94dfc,Multi-class Brain Tumor Classification and Segmentation using Hybrid Deep Learning Network Model,Parasa Rishi Kumar,2023,"Brain tumor classification is a significant task for evaluating tumors and selecting the type of treatment as per their classes. Brain tumors are diagnosed using multiple imaging techniques. However, MRI is frequently utilized since it provides greater image quality and uses non-ionizing radiation. Deep learning (DL) is a subfield of machine learning and recently displayed impressive performance, particularly in segmentation and classifying problems. Based on convolutional neural network (CNN), a Hybrid Deep Learning Network (HDLN) model is proposed in this research for classifying multiple types of brain tumors including glioma, meningioma, and pituitary tumors. The Mask RCNN is used for brain tumor classification. We used a squeeze-and-excitation residual network (SE-ResNet) for brain tumor segmentation, which is a residual network (ResNet) with a squeeze-and-excitation block. A publicly available research dataset is used for testing the proposed model for experiment analysis and it obtained an overall accuracy of 98.53%, 98.64% sensitivity and 98.91% specificity. In comparison to the most advanced classification models, the proposed model obtained the best accuracy. For multi-class brain tumor diseases, the proposed HDLN model demonstrated its superiority to the existing approaches.","{'model': 'tldr@v2.0.0', 'text': 'A Hybrid Deep Learning Network (HDLN) model is proposed in this research for classifying multiple types of brain tumors including glioma, meningiomas, and pituitary tumors based on convolutional neural network.'}","@Article{Kumar2023MulticlassBT,
+ author = {Parasa Rishi Kumar and Kavya Bonthu and Boyapati Meghana and Koneru Suvarna Vani and P. Chakrabarti},
+ booktitle = {Scalable Computing : Practice and Experience},
+ journal = {Scalable Comput. Pract. Exp.},
+ pages = {69-80},
+ title = {Multi-class Brain Tumor Classification and Segmentation using Hybrid Deep Learning Network Model},
+ volume = {24},
+ year = {2023}
+}
+",0,Scalable Computing : Practice and Experience,Scalable Comput. Pract. Exp.,69-80
+c6cd76cfa3a735f7f9d5e672c6618b6e9508b834,Smart brain tumor diagnosis system utilizing deep convolutional neural networks,Yildiray Anagun,2023,,"{'model': 'tldr@v2.0.0', 'text': 'A Convolutional Neural Network (CNN)-based brain tumor diagnosis system using EfficientNetv2s architecture is established, which was improved with the Ranger optimization and extensive pre-processing and demonstrated a convincing performance in tumor detection and diagnosis.'}","@Article{Anagun2023SmartBT,
+ author = {Yildiray Anagun},
+ booktitle = {Multimedia tools and applications},
+ journal = {Multimedia Tools and Applications},
+ pages = {1 - 27},
+ title = {Smart brain tumor diagnosis system utilizing deep convolutional neural networks},
+ year = {2023}
+}
+",0,Multimedia tools and applications,Multimedia Tools and Applications,1 - 27
+2d957d736924c0455655de39fbfccbdaabd94dfc,Multi-class Brain Tumor Classification and Segmentation using Hybrid Deep Learning Network Model,Parasa Rishi Kumar,2023,"Brain tumor classification is a significant task for evaluating tumors and selecting the type of treatment as per their classes. Brain tumors are diagnosed using multiple imaging techniques. However, MRI is frequently utilized since it provides greater image quality and uses non-ionizing radiation. Deep learning (DL) is a subfield of machine learning and recently displayed impressive performance, particularly in segmentation and classifying problems. Based on convolutional neural network (CNN), a Hybrid Deep Learning Network (HDLN) model is proposed in this research for classifying multiple types of brain tumors including glioma, meningioma, and pituitary tumors. The Mask RCNN is used for brain tumor classification. We used a squeeze-and-excitation residual network (SE-ResNet) for brain tumor segmentation, which is a residual network (ResNet) with a squeeze-and-excitation block. A publicly available research dataset is used for testing the proposed model for experiment analysis and it obtained an overall accuracy of 98.53%, 98.64% sensitivity and 98.91% specificity. In comparison to the most advanced classification models, the proposed model obtained the best accuracy. For multi-class brain tumor diseases, the proposed HDLN model demonstrated its superiority to the existing approaches.","{'model': 'tldr@v2.0.0', 'text': 'A Hybrid Deep Learning Network (HDLN) model is proposed in this research for classifying multiple types of brain tumors including glioma, meningiomas, and pituitary tumors based on convolutional neural network.'}","@Article{Kumar2023MulticlassBT,
+ author = {Parasa Rishi Kumar and Kavya Bonthu and Boyapati Meghana and Koneru Suvarna Vani and P. Chakrabarti},
+ booktitle = {Scalable Computing : Practice and Experience},
+ journal = {Scalable Comput. Pract. Exp.},
+ pages = {69-80},
+ title = {Multi-class Brain Tumor Classification and Segmentation using Hybrid Deep Learning Network Model},
+ volume = {24},
+ year = {2023}
+}
+",0,Scalable Computing : Practice and Experience,Scalable Comput. Pract. Exp.,69-80
+c6cd76cfa3a735f7f9d5e672c6618b6e9508b834,Smart brain tumor diagnosis system utilizing deep convolutional neural networks,Yildiray Anagun,2023,,"{'model': 'tldr@v2.0.0', 'text': 'A Convolutional Neural Network (CNN)-based brain tumor diagnosis system using EfficientNetv2s architecture is established, which was improved with the Ranger optimization and extensive pre-processing and demonstrated a convincing performance in tumor detection and diagnosis.'}","@Article{Anagun2023SmartBT,
+ author = {Yildiray Anagun},
+ booktitle = {Multimedia tools and applications},
+ journal = {Multimedia Tools and Applications},
+ pages = {1 - 27},
+ title = {Smart brain tumor diagnosis system utilizing deep convolutional neural networks},
+ year = {2023}
+}
+",0,Multimedia tools and applications,Multimedia Tools and Applications,1 - 27
+c6cd76cfa3a735f7f9d5e672c6618b6e9508b834,Smart brain tumor diagnosis system utilizing deep convolutional neural networks,Yildiray Anagun,2023,,"{'model': 'tldr@v2.0.0', 'text': 'A Convolutional Neural Network (CNN)-based brain tumor diagnosis system using EfficientNetv2s architecture is established, which was improved with the Ranger optimization and extensive pre-processing and demonstrated a convincing performance in tumor detection and diagnosis.'}","@Article{Anagun2023SmartBT,
+ author = {Yildiray Anagun},
+ booktitle = {Multimedia tools and applications},
+ journal = {Multimedia Tools and Applications},
+ pages = {1 - 27},
+ title = {Smart brain tumor diagnosis system utilizing deep convolutional neural networks},
+ year = {2023}
+}
+",0,Multimedia tools and applications,Multimedia Tools and Applications,1 - 27
+2d957d736924c0455655de39fbfccbdaabd94dfc,Multi-class Brain Tumor Classification and Segmentation using Hybrid Deep Learning Network Model,Parasa Rishi Kumar,2023,"Brain tumor classification is a significant task for evaluating tumors and selecting the type of treatment as per their classes. Brain tumors are diagnosed using multiple imaging techniques. However, MRI is frequently utilized since it provides greater image quality and uses non-ionizing radiation. Deep learning (DL) is a subfield of machine learning and recently displayed impressive performance, particularly in segmentation and classifying problems. Based on convolutional neural network (CNN), a Hybrid Deep Learning Network (HDLN) model is proposed in this research for classifying multiple types of brain tumors including glioma, meningioma, and pituitary tumors. The Mask RCNN is used for brain tumor classification. We used a squeeze-and-excitation residual network (SE-ResNet) for brain tumor segmentation, which is a residual network (ResNet) with a squeeze-and-excitation block. A publicly available research dataset is used for testing the proposed model for experiment analysis and it obtained an overall accuracy of 98.53%, 98.64% sensitivity and 98.91% specificity. In comparison to the most advanced classification models, the proposed model obtained the best accuracy. For multi-class brain tumor diseases, the proposed HDLN model demonstrated its superiority to the existing approaches.","{'model': 'tldr@v2.0.0', 'text': 'A Hybrid Deep Learning Network (HDLN) model is proposed in this research for classifying multiple types of brain tumors including glioma, meningiomas, and pituitary tumors based on convolutional neural network.'}","@Article{Kumar2023MulticlassBT,
+ author = {Parasa Rishi Kumar and Kavya Bonthu and Boyapati Meghana and Koneru Suvarna Vani and P. Chakrabarti},
+ booktitle = {Scalable Computing : Practice and Experience},
+ journal = {Scalable Comput. Pract. Exp.},
+ pages = {69-80},
+ title = {Multi-class Brain Tumor Classification and Segmentation using Hybrid Deep Learning Network Model},
+ volume = {24},
+ year = {2023}
+}
+",0,Scalable Computing : Practice and Experience,Scalable Comput. Pract. Exp.,69-80

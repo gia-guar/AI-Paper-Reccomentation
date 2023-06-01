@@ -1,0 +1,31 @@
+,id,doi,title,authors,category,source,url,year,score
+0,http://arxiv.org/abs/2305.20088v1,,Improving CLIP Training with Language Rewrites,"['Lijie Fan', 'Dilip Krishnan', 'Phillip Isola', 'Dina Katabi', 'Yonglong Tian']",,arxiv,http://arxiv.org/abs/2305.20088v1,2021,0.0
+1,http://arxiv.org/abs/2305.10259v3,,"Runtime Analyses of Multi-Objective Evolutionary Algorithms in the
+  Presence of Noise","['Matthieu Dinot', 'Benjamin Doerr', 'Ulysse Hennebelle', 'Sebastian Will']",,arxiv,http://arxiv.org/abs/2305.10259v3,2021,0.0
+2,http://arxiv.org/abs/2305.10292v1,,"Linear Query Approximation Algorithms for Non-monotone Submodular
+  Maximization under Knapsack Constraint","['Canh V. Pham', 'Tan D. Tran', 'Dung T. K. Ha', 'My T. Thai']",,arxiv,http://arxiv.org/abs/2305.10292v1,2021,0.0
+3,http://arxiv.org/abs/2305.10291v1,,Deformations on Entire Transcendental Functions,{'name': 'Rodrigo Robles Montero'},,arxiv,http://arxiv.org/abs/2305.10291v1,2021,0.0
+4,http://arxiv.org/abs/2305.10289v1,,Explain Any Concept: Segment Anything Meets Concept-Based Explanation,"['Ao Sun', 'Pingchuan Ma', 'Yuanyuan Yuan', 'Shuai Wang']",,arxiv,http://arxiv.org/abs/2305.10289v1,2021,0.0
+5,http://arxiv.org/abs/2305.10284v1,,"Towards More Robust NLP System Evaluation: Handling Missing Scores in
+  Benchmarks","['Anas Himmi', 'Ekhine Irurozki', 'Nathan Noiry', 'Stephan Clemencon', 'Pierre Colombo']",,arxiv,http://arxiv.org/abs/2305.10284v1,2021,0.0
+6,http://arxiv.org/abs/2305.10282v1,,"Reward-agnostic Fine-tuning: Provable Statistical Benefits of Hybrid
+  Reinforcement Learning","['Gen Li', 'Wenhao Zhan', 'Jason D. Lee', 'Yuejie Chi', 'Yuxin Chen']",,arxiv,http://arxiv.org/abs/2305.10282v1,2021,0.0
+7,http://arxiv.org/abs/2305.10471v1,,"Bike2Vec: Vector Embedding Representations of Road Cycling Riders and
+  Races","['Ethan Baron', 'Bram Janssens', 'Matthias Bogaert']",,arxiv,http://arxiv.org/abs/2305.10471v1,2021,0.0
+8,http://arxiv.org/abs/2305.10272v1,,Large-Scale Package Manipulation via Learned Metrics of Pick Success,"['Shuai Li', 'Azarakhsh Keipour', 'Kevin Jamieson', 'Nicolas Hudson', 'Charles Swan', 'Kostas Bekris']",,arxiv,http://arxiv.org/abs/2305.10272v1,2021,0.0
+9,http://arxiv.org/abs/2305.10267v1,,State Representation Learning Using an Unbalanced Atlas,"['Li Meng', 'Morten Goodwin', 'Anis Yazidi', 'Paal Engelstad']",,arxiv,http://arxiv.org/abs/2305.10267v1,2021,0.0
+10,http://arxiv.org/abs/2305.10257v1,,"Improving Link Prediction in Social Networks Using Local and Global
+  Features: A Clustering-based Approach","['Safiye Ghasemi', 'Amin Zarei']",,arxiv,http://arxiv.org/abs/2305.10257v1,2021,0.0
+11,http://arxiv.org/abs/2305.10294v1,,"DualFL: A Duality-based Federated Learning Algorithm with Communication
+  Acceleration in the General Convex Regime","['Jongho Park', 'Jinchao Xu']",,arxiv,http://arxiv.org/abs/2305.10294v1,2021,0.0
+12,http://arxiv.org/abs/2305.10254v1,,SAM for Poultry Science,"['Xiao Yang', 'Haixing Dai', 'Zihao Wu', 'Ramesh Bist', 'Sachin Subedi', 'Jin Sun', 'Guoyu Lu', 'Changying Li', 'Tianming Liu', 'Lilong Chai']",,arxiv,http://arxiv.org/abs/2305.10254v1,2021,0.0
+13,http://arxiv.org/abs/2305.10253v1,,"Co-mapping Cellular Content and Extracellular Matrix with Hemodynamics
+  in Intact Arterial Tissues Using Scanning Immunofluorescent Multiphoton
+  Microscopy","['Yasutaka Tobe', 'Anne Robertson', 'Mehdi Ramenzanpour', 'Juan Cebral', 'Simon Watkins', 'Fady Charbel', 'Sepideh Amin-Hanjani', 'Alexander Yu', 'Boyle Cheng', 'Henry Woo']",,arxiv,http://arxiv.org/abs/2305.10253v1,2021,0.0
+14,http://arxiv.org/abs/2305.10252v1,,Sharpness & Shift-Aware Self-Supervised Learning,"['Ngoc N. Tran', 'Son Duong', 'Hoang Phan', 'Tung Pham', 'Dinh Phung', 'Trung Le']",,arxiv,http://arxiv.org/abs/2305.10252v1,2021,0.0
+15,http://arxiv.org/abs/2305.10250v3,,MemoryBank: Enhancing Large Language Models with Long-Term Memory,"['Wanjun Zhong', 'Lianghong Guo', 'Qiqi Gao', 'He Ye', 'Yanlin Wang']",,arxiv,http://arxiv.org/abs/2305.10250v3,2021,0.0
+16,http://arxiv.org/abs/2305.10246v3,,Spiking Generative Adversarial Network with Attention Scoring Decoding,"['Linghao Feng', 'Dongcheng Zhao', 'Yi Zeng']",,arxiv,http://arxiv.org/abs/2305.10246v3,2021,0.0
+17,http://arxiv.org/abs/2305.10239v1,,"Valuation of a Financial Claim Contingent on the Outcome of a Quantum
+  Measurement","['Lane P. Hughston', 'Leandro Sánchez-Betancourt']",,arxiv,http://arxiv.org/abs/2305.10239v1,2021,0.0
+18,http://arxiv.org/abs/2305.10236v1,,A quantitative study of NLP approaches to question difficulty estimation,{'name': 'Luca Benedetto'},,arxiv,http://arxiv.org/abs/2305.10236v1,2021,0.0
+19,http://arxiv.org/abs/2305.15425v1,,Language Model Tokenizers Introduce Unfairness Between Languages,"['Aleksandar Petrov', 'Emanuele La Malfa', 'Philip H. S. Torr', 'Adel Bibi']",,arxiv,http://arxiv.org/abs/2305.15425v1,2021,0.0
