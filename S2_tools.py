@@ -106,8 +106,21 @@ def download_pdf_from_id(paperid):
 
 def update_dataframe(incomplete, dest):
     results = fetch_paper_batch(paperid= [item['paperId'] for item in incomplete])
-    print('\n\n\n')
-    print(results)
+    pdf_des= dest
+    pdf_des = pdf_des[:-4] + '.pdf'
+    text = ''
+
+    with open(pdf_des, 'a+',encoding='utf-8') as f:
+        for paper in results:
+            try:
+                text += paper['title'].upper()+'\n'
+                text += paper['tldr']['text']
+                text += '\n\n'
+            except:
+                pass
+
+    write_to_pdf(text, pdf_des)
+
     count = 0
 
     # Read existing entries from the CSV file
@@ -218,3 +231,25 @@ def refy_reccomend(bib_path, N=10):
     d.results.to_csv(
         os.path.join(os.path.join(bib_path.replace('\\results\\papers.bib',''),'refy_suggestions'),"test.csv"),
         )                    # save results to a .csv
+    
+    
+
+def write_to_pdf(text, dest):
+    # Initialize document object
+    document = ap.Document()
+
+    # Add page
+    page = document.pages.add()
+
+    # Initialize textfragment object
+    text_fragment = ap.text.TextFragment(text)
+
+    # Add text fragment to new page
+    page.paragraphs.add(text_fragment)
+
+    # Save updated PDF
+    document.save(dest)
+ 
+
+
+
