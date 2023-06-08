@@ -16,6 +16,8 @@ The AI-Based Paper Recommendation Tool is an innovative project designed to simp
 
 3. **OpenAI Da Vinci Model for Summarization**: The tool leverages the powerful OpenAI Da Vinci model, a state-of-the-art language model, to automatically summarize research papers. This feature saves users valuable time by providing concise and informative summaries, allowing them to quickly assess the relevance and significance of a paper.
 
+4. **Pinecone Vectorstore & Paper Questioning**: don't remember where you read about a specific topic? Just ask with Llama Indexing system. This option requires a free Pinecone API.
+
 ## How It Works
 
 1. **Query Submission**: Users can input their research interests or specific topics of interest into the tool's user interface.
@@ -33,3 +35,6 @@ The AI-Based Paper Recommendation Tool is an innovative project designed to simp
 - **Personalized Recommendations**: The integration of the Refy recommendation engine ensures that users receive tailored recommendations based on their individual interests and preferences.
 
 The AI-Based Paper Recommendation Tool combines cutting-edge technologies and APIs to revolutionize the way researchers discover and interact with scholarly papers. Whether you are an academic, student, or industry professional, this tool empowers you to stay up-to-date with the latest research in your field while saving you time and effort.
+
+## Work in progress
+- [ ] Make refy suggestion sytem to work automatically with manually added PDFs (need to extract the DOI, pages, ecc automatically)(alternatively you can add them manually to the .bib)
