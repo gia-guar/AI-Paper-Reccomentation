@@ -4,6 +4,7 @@ from time import time
 import requests
 import dotenv
 dotenv.load_dotenv()
+import aspose.pdf as ap
 
 import os
 from requests import Session
