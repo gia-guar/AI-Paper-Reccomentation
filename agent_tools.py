@@ -8,15 +8,21 @@ import csv
 import sys
 import requests
 
+import pinecone
 from langchain.document_loaders import UnstructuredPDFLoader, OnlinePDFLoader, PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 import S2_tools as scholar
  
+## paper questioning tools
+from llama_index import Document
+from llama_index.vector_stores import PineconeVectorStore
+from llama_index import GPTVectorStoreIndex, StorageContext, ServiceContext
+from llama_index.embeddings.openai import OpenAIEmbedding
 
 def PaperSearchAndDownload(query):
     # make new workspace 
-    workspace_dir_name = query.split()[0] + '_'+ str(uuid.uuid1(2))
+    workspace_dir_name = query.split()[0] + '_'+ str(uuid.uuid4().hex)
     os.mkdir(workspace_dir_name)
     os.mkdir(os.path.join(workspace_dir_name,'results'))
     os.mkdir(os.path.join(workspace_dir_name,'refy_suggestions'))
@@ -203,3 +209,66 @@ def download_paper(url, save_path):
 
             # Download the paper in PDF format
             urllib.request.urlretrieve(final_url, save_path)
+
+
+
+
+def load_workspace(folderdir):
+    docs =[]
+    
+    for item in os.listdir(folderdir):
+        if item.endswith('.pdf'):
+            print(f'   > loading {item}')
+            content = readPDF(os.path.join(folderdir, item))
+            docs.append(Document(
+                text = content,
+                doc_id = uuid.uuid4().hex
+            ))
+        
+        if item =='.'or item =='..':continue
+        if os.path.isdir( os.path.join(folderdir,item) ):
+            sub_docs = load_workspace(os.path.join(folderdir,item))
+            for doc in sub_docs:
+                docs.append(doc)
+        
+    return docs
+
+
+def llama_query_engine(docs:list, pinecone_index_name:str):
+    pinecone.init(
+        api_key= os.environ['PINECONE_API_KEY'],
+        environment= os.environ['PINECONE_API_ENV']
+    )
+
+    # Find the pinecone index
+    if pinecone_index_name not in pinecone.list_indexes():
+        # we create a new index
+        pinecone.create_index(
+            name=pinecone_index_name,
+            metric='dotproduct',
+            dimension=1536  # 1536 dim of text-embedding-ada-002
+        )
+    index = pinecone.Index(pinecone_index_name)
+    
+    # init it
+    vector_store = PineconeVectorStore(pinecone_index=index)
+    
+    # setup our storage (vector db)
+    storage_context = StorageContext.from_defaults(
+        vector_store=vector_store
+    )
+
+    embed_model = OpenAIEmbedding(model='text-embedding-ada-002', embed_batch_size=100)
+    service_context = ServiceContext.from_defaults(embed_model=embed_model)
+
+    # populate the vector store
+    LamaIndex = GPTVectorStoreIndex.from_documents(
+        docs, storage_context=storage_context,
+        service_context=service_context
+    )
+    print('PINECONE Vector Index initialized:\n',index.describe_index_stats())
+
+    # init the query engine
+    query_engine = LamaIndex.as_query_engine()
+    
+    return query_engine
